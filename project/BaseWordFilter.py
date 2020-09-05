@@ -20,14 +20,15 @@ class BaseWordFilter:
                  true：属于基础单词
                  false：不属于基础单词
         """
-
+        flag = False
         file_path = r"..\src\baseWordAlphabet\%s.txt" % str(list(word)[0]).lower()  # 文件路径，过滤文件名为单词首字母.txt
         base_word_file = open(file_path, "r", encoding='UTF-8')                     # 打开文件
         base_word = base_word_file.read()                                           # 读取文件
         weather_or_not_exit = re.findall(r"'%s '" % word, base_word)                # 匹配文件是否在基础单词库中
 
         if weather_or_not_exit:                                                     # 存在
-            return True
+            flag = True
         else:                                                                       # 不存在
-            return False
-
+            flag = False
+        print("BaseWordFilter().weather_exit_in_base_word（）", word, flag)
+        return flag

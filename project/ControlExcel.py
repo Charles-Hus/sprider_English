@@ -21,7 +21,6 @@ class ControlExcel:
         :param word: 用来判断的单词，看看数据表里有没有
         :return:{"flag": 记录是否存在于单词表中, "index": 记录单词索引}
         """
-        print("ControlExcel().weather_the_word_exit_in_excel(word)",word)
 
         flag = False    # 记录是否存在于单词表中
         index = 0       # 记录单词索引
@@ -35,7 +34,7 @@ class ControlExcel:
                 flag = True
                 break
             index = index + 1       # 不在这一列，序号+1
-
+        print("ControlExcel().weather_the_word_exit_in_excel(word)", word, flag)
         return_content = {"flag": flag, "index": index}
         return return_content
 
