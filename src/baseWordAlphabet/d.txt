@@ -1,0 +1,1 @@
+['dad ', 'day ', 'did ', 'do ', 'dog ', 'daddy ', 'dear ', 'deep ', 'deer ', 'doing ', 'doll ', 'door ', 'down ', 'dress ', 'drive ', 'drop ', 'dry ', 'duck ', 'dark ', 'desert ', "didn't ", 'dinner ', 'dishes ', 'does ', 'done ', "don't ", 'dragon ', 'draw ', 'dream ', 'drink ', 'd ', 'discover ', 'doctor ', "doesn't ", 'dollar ', 'during ', 'decide ', 'different ']

@@ -1,0 +1,1 @@
+['let ', 'like ', 'look ', 'lake ', 'land ', 'last ', 'late ', 'lay ', 'left ', 'leg ', 'light ', 'line ', 'little ', 'live ', 'lives ', 'long ', 'looking ', 'lost ', 'lot ', 'love ', 'll ', 'lady ', 'large ', 'largest ', 'later ', 'learn ', 'leave ', "let's ", 'letter ', 'life ', 'list ', 'living ', 'lovely ', 'loving ', 'lunch ', 'laugh ', 'll ']

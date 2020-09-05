@@ -1,0 +1,1 @@
+['ran ', 'rat ', 'red ', 'ride ', 'run ', 'rabbit ', 'rain ', 'read ', 'rest ', 'riding ', 'road ', 'rock ', 'room ', 'race ', 'reach ', 'reading ', 'ready ', 'real ', 'rich ', 'right ', 'river ', 'rocket ', 'rode ', 'round ', 'rule ', 'running ', 're ', 're ', 'radio ', 'raise ', 'really ', 'reason ', 'remember ', 'return ', 'receive ', 're ']

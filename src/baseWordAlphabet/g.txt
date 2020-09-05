@@ -1,0 +1,1 @@
+['get ', 'go ', 'good ', 'got ', 'game ', 'gas ', 'gave ', 'girl ', 'give ', 'glad ', 'goat ', 'goes ', 'going ', 'gold ', 'gone ', 'grade ', 'grass ', 'green ', 'grow ', 'getting ', 'given ', 'grandmother ', 'great ', 'grew ', 'ground ', 'guess ', 'good-by ', 'group ']

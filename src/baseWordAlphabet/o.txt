@@ -1,0 +1,1 @@
+['of ', 'oh ', 'old ', 'on ', 'one ', 'out ', 'off ', 'only ', 'open ', 'or ', 'other ', 'our ', 'outside ', 'over ', "o'clock ", 'often ', 'oil ', 'once ', 'orange ', 'order ', 'own ', 'ocean ', 'office ']
