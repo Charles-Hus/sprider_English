@@ -63,7 +63,7 @@ class MainFunction:
             the_word_weather_exist = BaseWordFilter().weather_exit_in_base_word(a_line_words[index_word])
             the_word_weather_in_excel = ControlExcel().weather_the_word_exit_in_excel(a_line_words[index_word])
 
-            if the_word_weather_exist is False and the_word_weather_in_excel is False:
+            if not(the_word_weather_exist) and not(the_word_weather_in_excel["flag"]):
                 print("都不存在 开整吧")
 
                 # 设置请求参数
@@ -90,7 +90,7 @@ class MainFunction:
                     continue
                 sleep(1)  # 慢点，免得给我封印了
 
-            elif the_word_weather_exist is False and the_word_weather_in_excel is True:
+            elif not(the_word_weather_exist) and the_word_weather_in_excel["flag"]:
                 print("不在基础单词表 but 在excel库种  times+1")
                 try:
                     ControlExcel().tims_up_the_word_exit_in_excel(the_word_weather_in_excel["index"])  # 就是存在 就让time +1
@@ -99,7 +99,7 @@ class MainFunction:
                           "2020-8-31 历史错误：要先关闭文件SearchWord.xls")
                     sys.exit()
 
-            elif the_word_weather_exist is True:
+            elif the_word_weather_exist:
                 print("在基础单词表中  pass")
 
         self.writ_word_in_txt_excel()
